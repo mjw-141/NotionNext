@@ -14,8 +14,8 @@ const Logo = (props) => {
         <Image
           src='/WukongIcon.svg' // 确保图片存放在 public 文件夹下
           alt='Site Logo'
-          width={70} // 设置图片宽度
-          height={40} // 设置图片高度
+          width={160} // 设置图片宽度
+          // 设置图片高度
           priority={true} // 优先加载该图片
         />
       </div>
