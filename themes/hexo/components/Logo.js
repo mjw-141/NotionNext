@@ -12,7 +12,7 @@ const Logo = (props) => {
     <Link href='/' passHref legacyBehavior>
       <div className='flex flex-col justify-center items-center cursor-pointer space-y-3'>
         <Image
-          src='/WukongWelcome.svg' // 确保图片存放在 public 文件夹下
+          src='/WukongIcon.svg' // 确保图片存放在 public 文件夹下
           alt='Site Logo'
           width={70} // 设置图片宽度
           height={40} // 设置图片高度
