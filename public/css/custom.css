@@ -6,3 +6,23 @@
 .fa-info:before {
     content: "\f05a";
 }
+
+svg>g{
+  
+      transform-box:fill-box;
+      transform-origin: center center;
+}
+
+#wrapper {
+    background-image:url(/Site-background-dark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header > div > div.font-black.text-4xl.md\:text-5xl.shadow-text.ml-40{font-size:100px;}
+    
+[id^="theme-"] {
+    font-family: LXGW WenKai;
+}
