@@ -6,6 +6,7 @@ import { loadExternalResource } from '@/lib/utils'
 import { useEffect, useState } from 'react'
 import CONFIG from '../config'
 import NavButtonGroup from './NavButtonGroup'
+import Image from 'next/image'
 
 let wrapperTop = 0
 
@@ -87,7 +88,7 @@ const Hero = props => {
         </div>
       </div>
 
-      <LazyImage
+      <Image
         id='header-cover'
         alt={siteInfo?.title}
         src="/monkey.jpg"
