@@ -68,7 +68,6 @@ const LayoutShanxiMap=()=>{
 const LayoutPicture = () => {
   return (
       <Card>
-        <br></br>
         <Title className="dark:text-gray-200 text-center text-2xl m-4 w-full"></Title>
         <ImageGrid />
       </Card>
