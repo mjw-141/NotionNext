@@ -51,13 +51,13 @@ const ScrollingPhotoWall = ({ props = [] }) => {
       <div className="flex justify-end mr-4 mt-3 space-x-3">
         <button
           onClick={scrollLeft}
-          className="bg-gray-800 text-white w-6 h-6 rounded-full opacity-70 hover:opacity-100 transition-opacity"
+          className="text-white w-6 h-6 rounded-full opacity-70 hover:opacity-100 transition-opacity"
         >
           <img src="/svg/left.svg" alt="scroll left" />
         </button>
         <button
           onClick={scrollRight}
-          className="bg-gray-800 text-white w-6 h-6 rounded-full opacity-70 hover:opacity-100 transition-opacity"
+          className="text-white w-6 h-6 rounded-full opacity-70 hover:opacity-100 transition-opacity"
         >
           <img src="/svg/right.svg" alt="scroll right" />
         </button>
