@@ -42,8 +42,6 @@ import Title from './components/Title'
 import PictureShow from './components/PictureShow'
 import Info from './components/Info'
 
-const router=
-
 
 const LayoutOver =()=>{
   return(
