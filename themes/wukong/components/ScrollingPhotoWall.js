@@ -40,7 +40,7 @@ const ScrollingPhotoWall = ({ props = [] }) => {
             </div>
             </Link>
             {/* 简介文本 */}
-            <div className="absolute bottom-0 left-0 right-0 text-dark font-bold text-xs line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <div className="absolute bottom-0 left-0 right-0 text-dark font-bold text-xs line-clamp-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 dark:text-white">
               {post.summary}
             </div>
           </div>
