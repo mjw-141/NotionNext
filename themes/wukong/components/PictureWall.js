@@ -10,7 +10,7 @@ const ImageGrid = () => {
   };
 
   useEffect(() => {
-    createImages(3); // 重复生成图像三次
+    createImages(1); // 重复生成图像三次
   }, []);
 
   useEffect(() => {
