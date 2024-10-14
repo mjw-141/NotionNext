@@ -64,6 +64,12 @@ const Style = () => {
         background-color: #49b1f5;
     }
 
+
+    * {
+        cursor: url('/cursor.png'), auto;
+    }
+
+
     * {
         scrollbar-width:thin;
         scrollbar-color: #49b1f5 transparent
