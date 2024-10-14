@@ -40,6 +40,7 @@ import ImageGallery from './components/ImageGallery'
 import UniqueCard from './components/UniqueCard'
 import Title from './components/Title'
 import PictureShow from './components/PictureShow'
+import Info from './components/Info'
 
 
 const LayoutOver =()=>{
