@@ -228,6 +228,7 @@ const LayoutPostList = props => {
       ) : (
         <BlogPostListScroll {...props} />
       )}
+    <Info/>
     </div>
   )
 }
