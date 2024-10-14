@@ -83,5 +83,17 @@ module.exports = {
   variants: {
     extend: {}
   },
-  plugins: []
+  plugins: [function ({ addUtilities }) {
+      const newUtilities = {
+        '.scrollbar-hide': {
+          'scrollbar-width': 'none',
+          '-ms-overflow-style': 'none',
+        },
+        '.scrollbar-hide::-webkit-scrollbar': {
+          'display': 'none',
+        },
+      };
+      addUtilities(newUtilities);
+    },
+]
 }
