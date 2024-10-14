@@ -4,7 +4,7 @@ const ImageGrid = () => {
   const containerRef = useRef(null);
   const [images, setImages] = useState([]);
   const imgWidth = 250;
-  const imageCount = 5;
+  const imageCount = 8;
   const handleClick = () => {
     window.location.href = '/article/guide'; // 跳转到指定的页面
   };
