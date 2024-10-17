@@ -14,7 +14,7 @@ const MapGallery=()=>{
     return (
         <div>
           {/* <div className="dark:text-gray-200 text-center text-2xl m-4 w-full hover:scale-110 transition-all duration-150">这是地图</div> */}
-          <div className="dark:text-gray-200 text-left text-2xl ml-12 m-4 w-full  duration-150">这个是最后的组件</div>
+          <div className="dark:text-gray-200 text-left text-2xl ml-12 m-4 w-full  duration-150">景区分布</div>
           <ShanxiMap />
         </div>
       )
