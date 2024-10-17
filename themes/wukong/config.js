@@ -4,7 +4,7 @@ const CONFIG = {
   HEXO_HOME_BANNER_GREETINGS: [
     'Hi，我是一个程序员',
     'Hi，我是一个干饭人',
-    '小西天土地',
+    'Hi，我是小西天土地',
     '欢迎来到我的博客🎉'
   ], // 首页大图标语文字
 
