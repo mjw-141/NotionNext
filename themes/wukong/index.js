@@ -46,12 +46,11 @@ import Info from './components/Info'
 const LayoutOver =()=>{
   return(
     <Card>
-    <div className="dark:text-gray-200 text-center text-2xl m-4 w-full hover:scale-110 transition-all duration-150">真的是最后一步了</div>
+    <Title className="dark:text-gray-200 text-center text-2xl m-4 w-full hover:scale-110 transition-all duration-150">导航栏</Title>
     <UniqueCard
     rightSlot={<ImageGallery/>}
     leftSlot={<MapGallery/>}
     />
-    <h1>到此就结束了</h1>
     </Card>
   )  
 }
