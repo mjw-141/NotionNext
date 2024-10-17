@@ -3,7 +3,7 @@ import React from 'react';
 const Info = () => {
   const tourismLinks = [
     { name: "Scenic Spot Tickets", url: "/scenic-spot-tickets" },
-    { name: "Guided Tours", url: "/guided-tours" },
+    { name: "Guided Tours", url: "/https://wukong.schemer.top/over" },
     { name: "Cultural Experiences", url: "/cultural-experiences" },
     { name: "Historical Site Visits", url: "/historical-site-visits" },
     { name: "Adventure Travel", url: "/adventure-travel" },
