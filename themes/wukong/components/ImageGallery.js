@@ -5,7 +5,7 @@ import Link from 'next/link'; // 引入 Link 组件
 const ImageGallery=()=>{
     return (
         <div>
-          <div className="dark:text-gray-200 text-left text-2xl ml-12 m-4 w-full  duration-150">这个是最后的组件</div>
+          <div className="dark:text-gray-200 text-left text-2xl ml-12 m-4 w-full  duration-150">相关推荐</div>
           <div className="flex flex-wrap justify-center gap-4">
           {/* <div className="grid grid-cols-2 gap-2"> */}
           <Link href="/article/example-1">
