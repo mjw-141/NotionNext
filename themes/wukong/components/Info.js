@@ -1,23 +1,17 @@
 import React from 'react';
 
 const Info = () => {
-  const shopLinks = [
-    { name: "Phones", url: "/phones" },
-    { name: "Tablets", url: "/tablets" },
-    { name: "Watches", url: "/watches" },
-    { name: "Mobile Accessories", url: "/mobile-accessories" },
-    { name: "Mobile Audio", url: "/mobile-audio" },
-    { name: "TV & Home Theater", url: "/tv-home-theater" },
-    { name: "Computing", url: "/computing" },
-    { name: "Monitors", url: "/monitors" },
-    { name: "Memory & Storage", url: "/memory-storage" },
-    { name: "Home Appliances", url: "/home-appliances" },
-    { name: "Smart Home", url: "/smart-home" },
-    { name: "Samsung Experience Stores", url: "/samsung-experience-stores" },
-    { name: "Apps & Services", url: "/apps-services" },
-    { name: "Shop Certified Re-Newed", url: "/shop-certified-renewed" },
-    { name: "Samsung Authorized Reseller Program", url: "/reseller-program" }
-  ];
+  const tourismLinks = [
+    { name: "Scenic Spot Tickets", url: "/scenic-spot-tickets" },
+    { name: "Guided Tours", url: "/guided-tours" },
+    { name: "Cultural Experiences", url: "/cultural-experiences" },
+    { name: "Historical Site Visits", url: "/historical-site-visits" },
+    { name: "Adventure Travel", url: "/adventure-travel" },
+    { name: "Resorts & Hotels", url: "/resorts-hotels" },
+    { name: "Local Cuisine Experiences", url: "/local-cuisine" },
+    { name: "Souvenir Shops", url: "/souvenir-shops" },
+    { name: "Festival Tickets", url: "/festival-tickets" }
+  ];  
 
   const supportLinks = [
     { name: "Chat with Us", url: "/chat-with-us" },
@@ -27,14 +21,14 @@ const Info = () => {
     { name: "Register Your Product", url: "/register-product" },
     { name: "Request a Repair", url: "/request-repair" },
     { name: "Contact Us", url: "/contact" },
-    { name: "Samsung Community", url: "/community" },
+    { name: "Community", url: "/community" },
     { name: "Give Feedback", url: "/feedback" },
     { name: "Slide-in Electric Range Recall", url: "/range-recall" }
   ];
 
   const offersLinks = [
     { name: "Offers", url: "/offers" },
-    { name: "Samsung Rewards", url: "/rewards" },
+    { name: "Rewards", url: "/rewards" },
     { name: "Referral Program", url: "/referral" },
     { name: "Education Offers Program", url: "/education-offers" },
     { name: "Government Offers Program", url: "/government-offers" },
@@ -65,7 +59,7 @@ const Info = () => {
     { name: "Investor Relations", url: "/investor-relations" },
     { name: "Newsroom", url: "/newsroom" },
     { name: "Ethics", url: "/ethics" },
-    { name: "Samsung Design", url: "/samsung-design" }
+    { name: "Design", url: "/samsung-design" }
   ];
 
   const renderLinks = (title, links) => (
@@ -86,7 +80,7 @@ const Info = () => {
   return (
     <div className="bg-gray-10 p-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
-        {renderLinks("SHOP", shopLinks)}
+        {renderLinks("TOURISM", tourismLinks)}
         {renderLinks("SUPPORT", supportLinks)}
         {renderLinks("OFFERS", offersLinks)}
         {renderLinks("SUSTAINABILITY", sustainabilityLinks)}
@@ -97,3 +91,4 @@ const Info = () => {
 };
 
 export default Info;
+
