@@ -22,6 +22,3 @@ svg>g{
 }
 
 #header > div > div.font-black.text-4xl.md\:text-5xl.shadow-text.ml-40{font-size:100px;}
-[id^="theme-"] {
-    font-family: LXGW WenKai;
-}
