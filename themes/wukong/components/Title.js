@@ -13,7 +13,7 @@ const Title = ({text}) => {
     <div style={{ textAlign: 'center' }}>
       <div style={{ margin: '10px 0' }}>
         <Image 
-          src="/Wu-title.jpg" 
+          src="/Wu-title.png" 
           style={{ width: '134px', marginBottom: '-10px' }} 
         />
       </div>
@@ -34,7 +34,7 @@ const Title = ({text}) => {
           {text}
         </div>
         <Image 
-          src="/Wuicon.png" 
+          src="/Wuicon.jpg" 
           style={{ width: '25px' }} 
         />
       </div>
