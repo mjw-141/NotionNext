@@ -5,13 +5,13 @@ const ImageGrid = () => {
   const containerRef = useRef(null);
   const [images, setImages] = useState([]);
   const imgWidth = 250;
-  const imageCount = 5;
+  const imageCount = 33;
   const handleClick = () => {
     window.location.href = '/article/guide'; // 跳转到指定的页面
   };
 
   useEffect(() => {
-    createImages(3); // 重复生成图像三次
+    createImages(1); // 重复生成图像三次
   }, []);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const ImageGrid = () => {
     const newImages = [];
     for (let j = 0; j < repeatCount; j++) {
       for (let i = 1; i <= imageCount; i++) {
-        const src = `/${i}.jpg`;
+        const src = `/${i+8}.jpg`;
         newImages.push({ src, loaded: false });
       }
     }
