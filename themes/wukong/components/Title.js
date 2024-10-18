@@ -19,7 +19,7 @@ const Title = ({text}) => {
       </div>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Image 
-          src="/Wuicon.png" 
+          src="/Wuicon.jpg" 
           style={{ width: '25px', transform: 'rotate(180deg)' }} 
         />
         <div 
