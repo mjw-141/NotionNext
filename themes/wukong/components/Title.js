@@ -8,18 +8,18 @@ const Image = ({ src, style }) => (
   />
 );
 
-const Title = () => {
+const Title = ({text}) => {
   return (
     <div style={{ textAlign: 'center' }}>
       <div style={{ margin: '10px 0' }}>
         <Image 
-          src="/Wu-title.png" 
+          src="/Wu-title.jpg" 
           style={{ width: '134px', marginBottom: '-10px' }} 
         />
       </div>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Image 
-          src="/Wuicon.jpg" 
+          src="/Wuicon.png" 
           style={{ width: '25px', transform: 'rotate(180deg)' }} 
         />
         <div 
@@ -31,10 +31,10 @@ const Title = () => {
             marginTop: '-2px' 
           }}
         >
-          照片墙
+          {text}
         </div>
         <Image 
-          src="/Wuicon.jpg" 
+          src="/Wuicon.png" 
           style={{ width: '25px' }} 
         />
       </div>
