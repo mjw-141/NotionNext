@@ -26,7 +26,7 @@ const Style = () => {
     
     #theme-hexo .menu-link:hover {
         background-size: 100% 2px;
-        color: #928CEE;
+        color: 	#F0F8FF;
     }
 
     /* 设置了从上到下的渐变黑色 */
@@ -52,29 +52,27 @@ const Style = () => {
 
     // 自定义滚动条
     ::-webkit-scrollbar {
-        width: 5px;
-        height: 5px;
+        width: 8px;
+        height: 8px;
     }
 
     ::-webkit-scrollbar-track {
-        background: transparent;
+        background: #f5f5f5;
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: #49b1f5;
+        background-color: #B0C4DE;
+        border-radius: 8px;
     }
 
-
+    /*
+    @supports not (-webkit-scrollbar: none) {
     * {
-        cursor: url('/cursor.png'), auto;
+        scrollbar-width: thin;
+        scrollbar-color: #49b1f5 transparent;
     }
-
-
-    * {
-        scrollbar-width:thin;
-        scrollbar-color: #49b1f5 transparent
-    }
-    
+}
+不考虑兼容性了*/
 
   `}</style>)
 }
