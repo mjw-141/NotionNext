@@ -45,13 +45,10 @@ import Info from './components/Info'
 
 const LayoutOver =()=>{
   return(
-    <Card>
-    <Title>导航栏</ Title>
     <UniqueCard
     rightSlot={<ImageGallery/>}
     leftSlot={<MapGallery/>}
     />
-    </Card>
   )  
 }
 
