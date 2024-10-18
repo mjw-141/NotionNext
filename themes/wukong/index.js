@@ -45,6 +45,7 @@ import Info from './components/Info'
 
 const LayoutOver =()=>{
   return(
+    <Title>地图索引与推荐</Title>
     <UniqueCard
     rightSlot={<ImageGallery/>}
     leftSlot={<MapGallery/>}
